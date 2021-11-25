@@ -1,0 +1,6 @@
+# make build_dev_usb_content
+/home/dev_test/DCI402KDG_Int_SW2.55_Biglib2.5_RC2/misc/../bin/misc//single_sign_linux /home/dev_test/DCI402KDG_Int_SW2.55_Biglib2.5_RC2/misc/../bin/mrs/debug//LoadingConfiguration.in /home/dev_test/DCI402KDG_Int_SW2.55_Biglib2.5_RC2/misc/../bin/mrs/debug//LoadingConfiguration.ssd
+single_sign: fake signature added (CRC32=F7CAC86E)
+/home/dev_test/DCI402KDG_Int_SW2.55_Biglib2.5_RC2/misc/../bin/misc//padFF /home/dev_test/DCI402KDG_Int_SW2.55_Biglib2.5_RC2/misc/../bin/mrs/debug//LoadingConfiguration.ssd /home/dev_test/DCI402KDG_Int_SW2.55_Biglib2.5_RC2/misc/../bin/mrs/debug//LoadingConfiguration.ssd.pad 0xC0
+make encrypt_file ENCRYPT_FILE=/home/dev_test/DCI402KDG_Int_SW2.55_Biglib2.5_RC2/misc/../bin/mrs/debug//LoadingConfiguration.ssd.pad
+make run_toolbox BATCH_FILE=/home/dev_test/DCI402KDG_Int_SW2.55_Biglib2.5_RC2/misc/../bin/mrs/debug//encrypt.txt
